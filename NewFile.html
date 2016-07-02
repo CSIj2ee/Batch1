@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Testing  &ndash; AJAX</title>
+<script src="./someJSfile.js" type="text/javascript"></script>
+<!--<script type="text/javascript">
+function someFunction()
+{
+	var url = './FakeDynamic.html';
+	var xhr = new XMLHttpRequest();
+	xhr.open("GET", url, true);
+	xhr.onreadystatechange = function() {
+	if (xhr.readyState == 4 && xhr.status == 200) {
+			// Every thing ok
+			console.log(xhr.responseText); // handle response.
+			document.getElementsByTagName("body")[0].innerHTML += xhr.responseText ;
+		}
+	};
+	xhr.send();
+}
+</script>  -->
+</head>
+<body id="someID" onload="someFunction()">
+Some text
+</body>
+</html>
